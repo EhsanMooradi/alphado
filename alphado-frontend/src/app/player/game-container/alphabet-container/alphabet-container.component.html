@@ -1,0 +1,10 @@
+<div class="flex flex-wrap gap-4 justify-center items-center w-full p-10">
+  @for (letter of alphabetContainer; track letter) {
+  <div
+    class="flex justify-center items-center bg-[#808CD0] text-white size-12 cursor-pointer rounded"
+    (click)="sendLetter(letter)"
+  >
+    {{ letter }}
+  </div>
+  }
+</div>

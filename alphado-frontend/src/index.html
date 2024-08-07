@@ -2,17 +2,57 @@
 <html lang="en">
   <head>
     <title>Alphado</title>
-    <base href="/"/>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <base href="/" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-    <link rel="manifest" href="manifest.webmanifest">
-  <meta name="theme-color" content="#1976d2">
-</head>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="theme-color" content="#FFFFFF" />
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Symbols+Rounded"
+      rel="stylesheet"
+    />
+
+    <script>
+      document.addEventListener("dblclick", function (event) {
+        event.preventDefault();
+      });
+
+      document.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+      });
+
+      document.addEventListener(
+        "touchmove",
+        function (event) {
+          event.preventDefault();
+        },
+        { passive: false }
+      );
+
+      document.addEventListener(
+        "wheel",
+        function (event) {
+          event.preventDefault();
+        },
+        { passive: false }
+      );
+    </script>
+  </head>
   <body class="bg-white">
     <app-root></app-root>
-    <noscript>Please enable JavaScript to continue using this application.</noscript>
-</body>
+    <noscript
+      >Please enable JavaScript to continue using this application.</noscript
+    >
+  </body>
 </html>
