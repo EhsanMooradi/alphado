@@ -42,6 +42,7 @@ export class AlphabetContainerComponent {
 
   @Output() letterToSend = new EventEmitter<string>();
   @Input() answerWord = 'nix';
+  
   alphabetContainer: string[] = this.generateTheWordContainer(this.answerWord);
 
   sendLetter(letter: string) {

@@ -43,14 +43,13 @@ export class MakeProfileComponent {
 
   createPlayer(): void {
     const roomCode = this.route.snapshot.queryParamMap.get('roomcode');
-    console.log(roomCode);
     if (roomCode) {
       this.makeProfileService.createNewProfile({
         name: this.formGroupPlayer.get('playerName')?.value,
         profileImage: this.profileIndex,
         roomCode: roomCode,
       });
-      this.router.navigate(['/game'], { queryParams: { roomCode: roomCode } });
+      this.router.navigate(['game'], { queryParams: { roomCode: roomCode } });
     }
   }
 

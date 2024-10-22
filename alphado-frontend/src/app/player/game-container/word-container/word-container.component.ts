@@ -9,10 +9,15 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrl: './word-container.component.css',
 })
 export class WordContainerComponent {
-  @Input() word: string = '';
+  word: string[] = [];
+  @Input() charachter: string[] = [];
   @Input() maxWordLength: number = 0;
 
   range(count: number): number[] {
     return Array.from({ length: count }, (_, i) => i + 1);
+  }
+
+  removeChar(index: number): void {
+    this.charachter[index] = '';
   }
 }

@@ -12,7 +12,7 @@ import { AlphabetContainerComponent } from './alphabet-container/alphabet-contai
   styleUrl: './game-container.component.css',
 })
 export class GameContainerComponent {
-  word: string = '';
+  word: string[] = [];
   maxWordLength: number = 0;
   question: string = '';
   questionIndex: number = 0;
@@ -22,7 +22,7 @@ export class GameContainerComponent {
   constructor(private logic: GameLogicService) {}
 
   ngOnInit() {
-    this.word = '';
+    this.word = [];
     this.maxWordLength = this.questions[this.questionIndex].answer.length;
     this.question = this.questions[this.questionIndex].question;
     this.questionMaxIndex = this.questions.length;
@@ -38,7 +38,7 @@ export class GameContainerComponent {
 
   getWord(event: string) {
     if (event === '⌫') {
-      this.word = this.word.substring(0, this.word.length - 1);
+      this.word.splice(this.word.length - 1, 1);
     }
 
     if (this.word.length === this.maxWordLength) {
@@ -47,19 +47,25 @@ export class GameContainerComponent {
 
     if (this.word.length < this.maxWordLength) {
       if (event === '␣') {
-        this.word += ' ';
+        this.word.push(' ');
       } else if (event !== '✓' && event !== '⌫') {
-        this.word += event.toLocaleLowerCase();
+        this.word.push(event.toLocaleLowerCase());
       }
     }
   }
 
   checkTheWord() {
-    if (this.logic.checkAnswer(this.questions, this.questionIndex, this.word)) {
+    if (
+      this.logic.checkAnswer(
+        this.questions,
+        this.questionIndex,
+        this.word.toString()
+      )
+    ) {
       alert('Richtig 🥳');
       if (this.questionIndex + 1 === this.questionMaxIndex) {
         this.question = 'Fertig! ✅';
-        this.word = '';
+        this.word = [];
         this.maxWordLength = 0;
       } else {
         this.questionIndex++;
