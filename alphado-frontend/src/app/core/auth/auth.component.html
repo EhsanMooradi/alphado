@@ -1,49 +1,43 @@
-<ion-content class="ion-padding">
-    <div class="login-container">
+<div class="flex flex-col items-center justify-center h-full w-full p-10">
+    <div class="w-full flex flex-col items-center justify-center mb-10">
+        <h1 class="text-center text-3xl text-[#1E1E1E]">ALPHADO</h1>
+    </div>
+    <!--
 
-        <div class="w-full flex flex-col items-center justify-center">
-            <div class="logo-container ion-padding size-32 text-center ">
-                logo
-            </div>
-            <h1 class="text-center text-3xl text-[#1E1E1E]">ALPHADO</h1>
+
+    <form class="w-full">
+        <ion-list>
+            <ion-item>
+                <ion-label position="floating">Email</ion-label>
+                <ion-input type="email" required></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label position="floating">Password</ion-label>
+                <ion-input type="password" required></ion-input>
+            </ion-item>
+        </ion-list>
+
+        <div class="ion-padding text-center">
+            <ion-button color="dark" expand="block" type="submit">Login</ion-button>
+            <ion-label color="dark" class="underline text-sm">Noch keinen Account? Jetzt registrieren</ion-label>
         </div>
+    </form>
 
-        <form>
-            <ion-list>
-                <ion-item>
-                    <ion-label position="floating">Email</ion-label>
-                    <ion-input type="email" required></ion-input>
-                </ion-item>
+    <div class="flex flex-row justify-center items-center w-full ">
+        <div class="w-full border-b border-s-stone-500"></div>
+        <div class="m-3">oder</div>
+        <div class="w-full border-b"></div>
+    </div>
 
-                <ion-item>
-                    <ion-label position="floating">Password</ion-label>
-                    <ion-input type="password" required></ion-input>
-                </ion-item>
-            </ion-list>
-
-            <div class="ion-padding text-center">
-                <ion-button color="dark" expand="block" type="submit">Login</ion-button>
-                <ion-label color="dark" class="underline text-sm">Noch keinen Account? Jetzt registrieren</ion-label>
-            </div>
-        </form>
-
-        <div class="flex flex-row justify-center items-center">
-            <div class="w-full border-b"></div>
-            <div class="m-3">oder</div>
-            <div class="w-full border-b"></div>
-        </div>
-
-        <div class="flex flex-col gap-4">
-            <ion-button color="dark" expand="block" fill="outline">
-                <ion-icon slot="start" name="logo-google"></ion-icon>
-                Mit Google anmelden
-            </ion-button>
-            <ion-button color="dark" expand="block" fill="outline">
-                <ion-icon slot="start" namse="logo-apple"></ion-icon>
-                Mit Apple anmelden
-            </ion-button>
-
-        </div>
+    -->
+    <div class="flex flex-col gap-4 w-full">
+        <ion-button color="dark" expand="block" fill="outline" (click)="login()">
+            <ion-icon slot="start" name="logo-google"></ion-icon>
+            Mit Google anmelden
+        </ion-button>
 
     </div>
-</ion-content>
+
+</div>
+

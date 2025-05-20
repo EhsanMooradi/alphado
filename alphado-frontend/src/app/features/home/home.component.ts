@@ -1,5 +1,8 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, inject, OnInit} from '@angular/core';
 import {IonIcon, IonLabel, IonTabBar, IonTabButton, IonTabs} from "@ionic/angular/standalone";
+import {JsonPipe} from "@angular/common";
+import {AuthGoogleServiceService} from "../../core/auth/auth-google/auth-google-service.service";
+import {Router} from "@angular/router";
 
 @Component({
     selector: 'app-home',
@@ -10,15 +13,21 @@ import {IonIcon, IonLabel, IonTabBar, IonTabButton, IonTabs} from "@ionic/angula
         IonTabButton,
         IonTabBar,
         IonTabs,
-        IonIcon
+        IonIcon,
+        JsonPipe
     ]
 })
 export class HomeComponent implements OnInit {
+
+    private authService = inject(AuthGoogleServiceService)
+    private router = inject(Router);
+    user: any
 
     constructor() {
     }
 
     ngOnInit() {
+        this.user = this.authService.userInfo;
     }
 
 }
