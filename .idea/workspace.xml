@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90806550-c10a-44cf-8336-c81475cd1c52" name="Changes" comment="configurations">
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/alphado-frontend/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/alphado-frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/.vscode/extensions.json" beforeDir="false" afterPath="$PROJECT_DIR$/alphado-frontend/.vscode/extensions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/alphado-frontend/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/ngsw-config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/alphado-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/alphado-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/assets/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/assets/profile0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/assets/profile1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/assets/profile2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/icons Kopie/icon-128x128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/icons Kopie/icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/icons Kopie/icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/icons Kopie/icon-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/icons Kopie/icon-384x384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/icons Kopie/icon-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/icons Kopie/icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/icons Kopie/icon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/icons/icon-128x128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/icons/icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/icons/icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/icons/icon-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/icons/icon-384x384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/icons/icon-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/icons/icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/icons/icon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/public/manifest.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/alphado-frontend/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/alphado-frontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/app.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/alphado-frontend/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/hoster/create-questions/create-questions.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/hoster/create-questions/create-questions.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/hoster/create-questions/create-questions.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/hoster/create-questions/create-questions.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/hoster/hoster.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/hoster/hoster.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/hoster/hoster.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/hoster/hoster.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/game-container/alphabet-container/alphabet-container.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/game-container/alphabet-container/alphabet-container.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/game-container/alphabet-container/alphabet-container.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/game-container/alphabet-container/alphabet-container.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/game-container/game-container.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/game-container/game-container.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/game-container/game-container.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/game-container/models/question.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/game-container/service/game-logic.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/game-container/word-container/word-container.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/game-container/word-container/word-container.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/game-container/word-container/word-container.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/game-container/word-container/word-container.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/make-profile/make-profile.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/make-profile/make-profile.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/make-profile/make-profile.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/make-profile/make-profile.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/make-profile/services/make-profile.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/make-profile/services/make-profile.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/player.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/player.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/player.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/player/player.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/share/components/loading-spinner/loading-spinner.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/share/components/loading-spinner/loading-spinner.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/share/components/loading-spinner/loading-spinner.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/share/components/loading-spinner/loading-spinner.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/share/loading-screen/loading-screen.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/share/loading-screen/loading-screen.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/share/loading-screen/loading-screen.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/share/loading-screen/loading-screen.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/share/models/player.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/share/models/room.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/start-page/start-page.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/start-page/start-page.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/start-page/start-page.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/app/start-page/start-page.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/alphado-frontend/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/alphado-frontend/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/alphado-frontend/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/alphado-frontend/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/alphado-frontend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alphado-frontend/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/alphado-frontend/tsconfig.spec.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/alphado-frontend/.editorconfig" previewFile="$PROJECT_DIR$/alphado-frontend/src/app/app.component.html" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EhsanMooradi&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EhsanMooradi/alphado.git&quot;,
+    &quot;accountId&quot;: &quot;77746e7e-9074-41f6-859a-7b61f7c4a138&quot;
+  }
+}</component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2wnx3l8QUm4XyzNwdaGvYXWjtGq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;JavaScript Debug.app.component.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.auth.component.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ehsanmoradi/DEV/projects/alphado&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/ehsanmoradi/DEV/projects/alphado/archiv/alphado-frontend/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/alphado-frontend/src/assets" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90806550-c10a-44cf-8336-c81475cd1c52" name="Changes" comment="" />
+      <created>1746690941788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746690941788</updated>
+      <workItem from="1746690942861" duration="652000" />
+      <workItem from="1746693826770" duration="3265000" />
+      <workItem from="1746735402463" duration="8596000" />
+      <workItem from="1747243925638" duration="2384000" />
+      <workItem from="1747333800586" duration="24000" />
+      <workItem from="1747689518881" duration="508000" />
+      <workItem from="1747762327708" duration="772000" />
+      <workItem from="1747763103706" duration="19000" />
+    </task>
+    <task id="LOCAL-00001" summary="configurations">
+      <option name="closed" value="true" />
+      <created>1747762655612</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747762655612</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="configurations" />
+    <option name="LAST_COMMIT_MESSAGE" value="configurations" />
+  </component>
+</project>

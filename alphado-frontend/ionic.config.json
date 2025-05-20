@@ -1,0 +1,7 @@
+{
+  "name": "alphado-frontend",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
