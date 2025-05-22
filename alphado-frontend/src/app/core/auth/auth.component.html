@@ -2,23 +2,21 @@
     <div class="w-full flex flex-col items-center justify-center mb-10">
         <h1 class="text-center text-3xl text-[#1E1E1E]">ALPHADO</h1>
     </div>
-    <!--
 
-
-    <form class="w-full">
+    <form class="w-full flex flex-col gap-8" [formGroup]="formLogin" (ngSubmit)="login()">
         <ion-list>
             <ion-item>
                 <ion-label position="floating">Email</ion-label>
-                <ion-input type="email" required></ion-input>
+                <ion-input type="email" required formControlName="email"></ion-input>
             </ion-item>
 
             <ion-item>
                 <ion-label position="floating">Password</ion-label>
-                <ion-input type="password" required></ion-input>
+                <ion-input type="password" required formControlName="password"></ion-input>
             </ion-item>
         </ion-list>
 
-        <div class="ion-padding text-center">
+        <div class="ion-padding text-center gap-8 flex flex-col">
             <ion-button color="dark" expand="block" type="submit">Login</ion-button>
             <ion-label color="dark" class="underline text-sm">Noch keinen Account? Jetzt registrieren</ion-label>
         </div>
@@ -30,9 +28,8 @@
         <div class="w-full border-b"></div>
     </div>
 
-    -->
     <div class="flex flex-col gap-4 w-full">
-        <ion-button color="dark" expand="block" fill="outline" (click)="login()">
+        <ion-button color="dark" expand="block" fill="outline" (click)="loginWithGoogle()">
             <ion-icon slot="start" name="logo-google"></ion-icon>
             Mit Google anmelden
         </ion-button>

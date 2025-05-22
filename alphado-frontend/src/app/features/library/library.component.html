@@ -1,0 +1,5 @@
+<div class="h-full w-full flex flex-col pt-5 px-5 overflow-y-auto">
+    @for (studySet of studySets(); track studySet) {
+        <app-study-set [studySet]="studySet"></app-study-set>
+    }
+</div>

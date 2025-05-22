@@ -6,13 +6,20 @@ import {routes} from './app/app.routes';
 import {AppComponent} from './app/app.component';
 import {OAuthService, provideOAuthClient} from "angular-oauth2-oidc";
 import {provideHttpClient} from "@angular/common/http";
+import {iosTransitionAnimation} from '@ionic/angular';
 
 bootstrapApplication(AppComponent, {
     providers: [
         {provide: RouteReuseStrategy, useClass: IonicRouteStrategy},
-        provideIonicAngular(),
-        provideRouter(routes, withPreloading(PreloadAllModules)),
         provideOAuthClient(),
-        provideHttpClient()
+        provideHttpClient(),
+        provideIonicAngular({
+            animated: true,
+            navAnimation: iosTransitionAnimation,
+        }),
+        provideRouter(routes),
+
     ],
+
 });
+

@@ -1,0 +1,21 @@
+@if (studySet()) {
+    <ion-card>
+        <div class="flex justify-between p-4 items-center">
+            <ion-card-subtitle>{{ studySet()?.title }}</ion-card-subtitle>
+            <ion-button [routerLink]="'study-room'" fill="solid" size="small" shape="round"
+            >
+                <ion-icon name="play"></ion-icon>
+            </ion-button>
+        </div>
+
+        <div class="w-full flex px-5 mb-4  items-center">
+            <ion-label class="w-full">
+                {{ studySet()?.questionsAndAnswers?.length + ' ' + 'Fragen' }}
+                {{ '•' }}
+                {{ 'Erstellt von ' + studySet()?.creator }}
+            </ion-label>
+        </div>
+
+    </ion-card>
+
+}
