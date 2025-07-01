@@ -1,7 +1,21 @@
 import {Component, input, OnInit} from '@angular/core';
-import {IonIcon, IonLabel, IonTabBar, IonTabButton, IonTabs} from "@ionic/angular/standalone";
+import {
+    IonContent,
+    IonHeader,
+    IonIcon,
+    IonLabel,
+    IonTabBar,
+    IonTabButton,
+    IonTabs,
+    IonTitle,
+    IonToolbar
+} from "@ionic/angular/standalone";
 import {RouterLink} from "@angular/router";
 import {StudySet} from "../../features/library/study-set/models/study-set";
+import {addIcons} from "ionicons";
+import {home, library, person} from "ionicons/icons";
+import {ProfileComponent} from "../../features/profile/profile.component";
+import {LibraryComponent} from "../../features/library/library.component";
 
 @Component({
     selector: 'app-tabar',
@@ -13,16 +27,13 @@ import {StudySet} from "../../features/library/study-set/models/study-set";
         IonTabButton,
         IonLabel,
         IonIcon,
-        RouterLink
     ]
 })
-export class TabbarComponent implements OnInit {
-
+export class TabbarComponent {
 
     constructor() {
+        addIcons({library, home, person});
     }
 
-    ngOnInit() {
-    }
 
 }

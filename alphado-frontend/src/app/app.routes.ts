@@ -6,35 +6,41 @@ import {HomeComponent} from "./features/home/home.component";
 import {LibraryComponent} from "./features/library/library.component";
 import {ProfileComponent} from "./features/profile/profile.component";
 import {StudyRoomComponent} from "./features/library/study-set/study-room/study-room.component";
+import {TabbarComponent} from "./core/tabar/tabbar.component";
+import {loginGuard} from "./core/guards/login.guard";
 
 
 export const routes: Routes = [
 
     {
-        path: 'home',
-        component: HomeComponent,
-        canActivate: [authGuard],
-    },
-    {
-        path: 'profile',
-        component: ProfileComponent,
-        canActivate: [authGuard],
-    },
-    {
-        path: 'library',
-        component: LibraryComponent,
+        path: '',
+        component: TabbarComponent,
         canActivate: [authGuard],
         children: [
             {
-                path: 'study-room',
-                component: StudyRoomComponent,
-            }
-        ],
-
+                path: 'home',
+                component: HomeComponent,
+            },
+            {
+                path: 'profile',
+                component: ProfileComponent,
+            },
+            {
+                path: 'library',
+                component: LibraryComponent,
+                children: [
+                    {
+                        path: 'study_room/:id',
+                        component: StudyRoomComponent,
+                    },
+                ]
+            },
+        ]
     },
 
     {
         path: 'login',
+        canActivate: [loginGuard],
         component: AuthComponent,
     },
 

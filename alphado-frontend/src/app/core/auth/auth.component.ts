@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {IonButton, IonContent, IonIcon, IonInput, IonItem, IonLabel, IonList} from "@ionic/angular/standalone";
-import {AuthGoogleServiceService} from "./auth-google/auth-google-service.service";
+import {AuthGoogleService} from "./auth-google/service/auth-google.service";
 import {FormControl, FormGroup, FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {Router} from "@angular/router";
 
@@ -9,10 +9,6 @@ import {Router} from "@angular/router";
     templateUrl: './auth.component.html',
     styleUrls: ['./auth.component.scss'],
     imports: [
-        IonList,
-        IonItem,
-        IonInput,
-        IonLabel,
         IonButton,
         IonIcon,
         FormsModule,
@@ -26,7 +22,7 @@ export class AuthComponent {
         password: new FormControl('')
     })
 
-    constructor(private authService: AuthGoogleServiceService, private router: Router) {
+    constructor(private authService: AuthGoogleService, private router: Router) {
     }
 
     login() {

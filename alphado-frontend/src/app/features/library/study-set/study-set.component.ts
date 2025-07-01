@@ -2,10 +2,8 @@ import {Component, input, OnInit} from '@angular/core';
 import {
     IonButton,
     IonCard,
-    IonCardContent,
-    IonCardHeader,
     IonCardSubtitle,
-    IonCardTitle, IonIcon,
+    IonIcon,
     IonLabel, IonText
 } from "@ionic/angular/standalone";
 import {StudySet} from "./models/study-set";
@@ -29,10 +27,6 @@ export class StudySetComponent {
     readonly studySet = input<StudySet>()
 
     constructor(private router: Router) {
-    }
-
-    playStudySet() {
-        this.router.navigate(['/study-room'])
     }
 
 

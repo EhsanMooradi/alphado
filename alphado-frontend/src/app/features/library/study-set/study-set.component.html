@@ -2,7 +2,7 @@
     <ion-card>
         <div class="flex justify-between p-4 items-center">
             <ion-card-subtitle>{{ studySet()?.title }}</ion-card-subtitle>
-            <ion-button [routerLink]="'study-room'" fill="solid" size="small" shape="round"
+            <ion-button [routerLink]="['study_room', studySet()?.id]" fill="solid" size="small" shape="round"
             >
                 <ion-icon name="play"></ion-icon>
             </ion-button>
