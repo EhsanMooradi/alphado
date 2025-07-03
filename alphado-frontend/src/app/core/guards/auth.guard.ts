@@ -5,7 +5,8 @@ import {AuthGoogleService} from "../auth/auth-google/service/auth-google.service
 export const authGuard: CanActivateFn = (route, state) => {
     const router = inject(Router);
     const authGoogleService = inject(AuthGoogleService);
-    return true;
+    console.log(authGoogleService.isLoggedIn())
+
     if (authGoogleService.isLoggedIn()) {
         return true;
     } else {

@@ -15,7 +15,6 @@ export const routes: Routes = [
     {
         path: '',
         component: TabbarComponent,
-        canActivate: [authGuard],
         children: [
             {
                 path: 'home',
@@ -40,7 +39,6 @@ export const routes: Routes = [
 
     {
         path: 'login',
-        canActivate: [loginGuard],
         component: AuthComponent,
     },
 

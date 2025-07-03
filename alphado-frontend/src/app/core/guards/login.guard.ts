@@ -5,6 +5,8 @@ import {AuthGoogleService} from "../auth/auth-google/service/auth-google.service
 export const loginGuard: CanActivateFn = (route, state) => {
     const router = inject(Router);
     const authGoogleService = inject(AuthGoogleService);
+    console.log(authGoogleService.isLoggedIn())
+    
     if (authGoogleService.isLoggedIn()) {
         router.navigate(['/home']);
         return false;
